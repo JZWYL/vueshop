@@ -1,5 +1,6 @@
 <template>
   <div id="app">
+<<<<<<< HEAD
     <img src="./assets/logo.png">
     <div>
       <p>
@@ -10,10 +11,15 @@
       <el-button>el-button</el-button>
     </div>
     <HelloWorld msg="Welcome to Your Vue.js App"/>
+=======
+    <router-view></router-view>
+>>>>>>> login
   </div>
+  
 </template>
 
 <script>
+<<<<<<< HEAD
 import HelloWorld from './components/HelloWorld.vue'
 
 export default {
@@ -21,10 +27,15 @@ export default {
   components: {
     HelloWorld
   }
+=======
+export default {
+  name: 'app',
+>>>>>>> login
 }
 </script>
 
 <style>
+<<<<<<< HEAD
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -33,4 +44,6 @@ export default {
   color: #2c3e50;
   margin-top: 60px;
 }
+=======
+>>>>>>> login
 </style>
