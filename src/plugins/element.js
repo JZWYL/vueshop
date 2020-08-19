@@ -1,12 +1,4 @@
 import Vue from 'vue'
-<<<<<<< HEAD
-<<<<<<< HEAD
-import { Button } from 'element-ui'
-
-Vue.use(Button)
-=======
-import { Button, Form, FormItem, Input, Message } from 'element-ui'
-=======
 import {
     Button,
     Form,
@@ -34,16 +26,11 @@ import {
     Dialog,
     MessageBox
 } from 'element-ui'
->>>>>>> user
 
 Vue.use(Button)
 Vue.use(Form)
 Vue.use(FormItem)
 Vue.use(Input)
-<<<<<<< HEAD
-Vue.prototype.$message = Message
->>>>>>> login
-=======
 Vue.use(Container)
 Vue.use(Header)
 Vue.use(Aside)
@@ -66,4 +53,3 @@ Vue.use(Dialog)
 
 Vue.prototype.$message = Message
 Vue.prototype.$confirm = MessageBox.confirm
->>>>>>> user

@@ -2,9 +2,6 @@ import Vue from 'vue'
 import App from './App.vue'
 import router from './router'
 import './plugins/element.js'
-<<<<<<< HEAD
-=======
-
 // 导入全局样式表
 import './assets/css/global.css'
 // 导入字体图标
@@ -19,7 +16,6 @@ axios.interceptors.request.use(config => {
     return config
 })
 Vue.prototype.$http = axios
->>>>>>> login
 
 Vue.config.productionTip = false
 
